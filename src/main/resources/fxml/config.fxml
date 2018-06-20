@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" fx:controller="br.com.coinwalletoff.ConfigController" prefHeight="402.0" prefWidth="808.0"  xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab fx:id="tab_backup" text="Conta(s) Sincronização">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-border-color: gray;">
+                     <children>
+                        <Separator layoutX="-1.0" layoutY="29.0" prefHeight="10.0" prefWidth="808.0" />
+                        <Label layoutX="10.0" layoutY="53.0" text="Google Drive" textFill="#1b0de4">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="93.0" text="Cliente ID: ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="cliente_id" layoutX="73.0" layoutY="89.0" prefHeight="25.0" prefWidth="268.0" promptText="Cliente ID" />
+                        <Label layoutX="352.0" layoutY="93.0" text="Cliente Secret: ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="cliente_secret" layoutX="438.0" layoutY="89.0" prefHeight="25.0" prefWidth="211.0" promptText="Cliente Secret" />
+                        <Button fx:id="ativa_sinc_conf" layoutX="661.0" layoutY="89.0" mnemonicParsing="false" onAction="#ativa_sinc_conf" prefHeight="25.0" prefWidth="137.0" text="Ativar Sincronização" textFill="#276840">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="30.0" layoutY="6.0" prefHeight="17.0" prefWidth="753.0" text="Utilizado para sincronizar as suas criptomoedas, e efetuar o backup das mesmas. Abaixo informe seu Cliente ID e Cliente Secret da conta." textFill="#949090" />
+                        <Separator layoutX="10.0" layoutY="74.0" prefHeight="6.0" prefWidth="411.0" />
+                        <Button fx:id="salva_conf" layoutX="659.0" layoutY="276.0" mnemonicParsing="false" onAction="#salva_conf" prefHeight="43.0" prefWidth="131.0" text="Salvar" textFill="#8f4343" underline="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <TextArea fx:id="_status" disable="true" editable="false" layoutX="73.0" layoutY="140.0" prefHeight="124.0" prefWidth="680.0" >
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </TextArea>
+                        <Label layoutX="73.0" layoutY="123.0" text="Status:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                         <CheckBox fx:id="auto_backup_exit" layoutX="290.0" layoutY="45.0" mnemonicParsing="false" onAction="#auto_backup_exit" prefHeight="17.0" prefWidth="263.0" text="Backup Automatico ao sair da aplicação ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tab_sincr_dados" text="Sincronizar Dados">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-border-color: gray;">
+                     <children>
+                        <Button fx:id="baixa_gdrive" layoutX="281.0" layoutY="14.0" mnemonicParsing="false" onAction="#baixa_gdrive" prefHeight="38.0" prefWidth="214.0" text="Baixar Informações">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                          <TableView fx:id="table_backup" layoutX="16.0" layoutY="60.0" prefHeight="180.0" prefWidth="782.0">
+                          <columns>
+                            <TableColumn fx:id="table_moeda" prefWidth="75.0" text="Moeda" />
+                            <TableColumn fx:id="table_exchenge" prefWidth="75.0" text="Exchenge" />
+                              <TableColumn fx:id="table_public" prefWidth="128.0" text="Endereço Oublico" />
+                              <TableColumn fx:id="table_private" prefWidth="155.0" text="Endereco Privado" />
+                              <TableColumn fx:id="table_obs" prefWidth="75.0" text="Obs" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <Button fx:id="sinc_dados_local" layoutX="332.0" layoutY="273.0" mnemonicParsing="false" onAction="#sinc_dados_local" prefHeight="33.0" prefWidth="128.0" text="Sincronizar">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           
+                        </Button>
+                        <CheckBox fx:id="chec_gdrive" layoutX="280.0" layoutY="249.0" mnemonicParsing="false" selected="true" text="Manter as informações locais ja cadastradas" />
+                        <Label fx:id="label_status" alignment="CENTER" layoutX="161.0" layoutY="311.0" prefHeight="17.0" prefWidth="486.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+           <Tab fx:id="tab_exchenge" text="Exchenges">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-border-color: gray;">
+                     <children>
+                        <TableView fx:id="table_api" layoutX="5.0" onMousePressed="#get_click_tabapi"  layoutY="152.0" prefHeight="171.0" prefWidth="796.0">
+                          <columns>
+                            <TableColumn fx:id="exchenge" prefWidth="75.0" text="Exchenge" />
+                            <TableColumn fx:id="identificador" prefWidth="75.0" text="Identificador" />
+                              <TableColumn fx:id="segredo" prefWidth="75.0" text="Segredo" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <ChoiceBox fx:id="api_exchenge" layoutX="324.0" layoutY="14.0" prefHeight="25.0" prefWidth="229.0" />
+                        <Label layoutX="255.0" layoutY="18.0" prefHeight="17.0" prefWidth="60.0" text="Exchenge">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="26.0" layoutY="54.0" text="Identificador/Api Key">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="api_identificador" layoutX="160.0" layoutY="50.0" prefHeight="25.0" prefWidth="639.0" />
+                        <Label layoutX="26.0" layoutY="92.0" text="Segredo">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="api_segredo" layoutX="160.0" layoutY="84.0" prefHeight="25.0" prefWidth="639.0" />
+                        <Button fx:id="api_bt_salva" layoutX="308.0" layoutY="118.0" mnemonicParsing="false" onAction="#api_bt_salva" text="Incluir/Editar">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="api_deleta" layoutX="503.0" layoutY="118.0" mnemonicParsing="false" onAction="#api_deleta" prefHeight="25.0" prefWidth="73.0" text="Excluir">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="api_limpa" layoutX="414.0" layoutY="118.0" mnemonicParsing="false" onAction="#api_limpa" prefHeight="25.0" prefWidth="70.0" text="Limpar">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="725.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="sair_conf" mnemonicParsing="false" onAction="#sair_conf" prefHeight="25.0" prefWidth="96.0" text="Sair">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

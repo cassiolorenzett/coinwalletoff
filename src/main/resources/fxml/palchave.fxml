@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" fx:controller="br.com.coinwalletoff.MainApp" minWidth="-Infinity" prefHeight="259.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="151.0" layoutY="14.0" prefHeight="17.0" prefWidth="109.0" text="Cadastro de senha">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-1.0" layoutY="30.0" prefHeight="17.0" prefWidth="410.0" />
+      <Label layoutX="42.0" layoutY="47.0" prefHeight="17.0" prefWidth="325.0" text="Informa uma palavra passe que servirá como chave principal " />
+      <Label layoutX="59.0" layoutY="64.0" prefHeight="17.0" prefWidth="291.0" text="para proteger os seus dados cadastrados no software." />
+      <Region layoutX="3.0" layoutY="123.0" prefHeight="94.0" prefWidth="403.0" style="-fx-border-color: #a7a4a4;" />
+      <Label layoutX="40.0" layoutY="135.0" text="Senha:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="171.0" text="Confirma Senha:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="senhapri" layoutX="151.0" layoutY="131.0"  prefHeight="25.0" prefWidth="208.0" promptText="Senha (max 16 caracteres)" />
+      <PasswordField fx:id="senhaconf" layoutX="151.0" layoutY="167.0"  prefHeight="25.0" prefWidth="208.0" promptText="Confirma Senha (max 16 caracteres)" />
+      <Button fx:id="salva" layoutX="151.0" layoutY="220.0" mnemonicParsing="false" onAction="#salva" prefHeight="25.0" prefWidth="109.0" text="Salvar" textFill="#116f33">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

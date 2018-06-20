@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="464.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.151" fx:controller="br.com.coinwalletoff.Add_altController">
+  
+    <children>
+      <GridPane layoutX="1.0" layoutY="65.0" prefHeight="332.0" prefWidth="451.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="220.0" minWidth="10.0" prefWidth="114.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="339.0" minWidth="10.0" prefWidth="337.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints fillHeight="false" maxHeight="150.0" minHeight="10.0" prefHeight="58.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="246.0" minHeight="0.0" prefHeight="49.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="245.0" minHeight="8.0" prefHeight="56.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="245.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+            <RowConstraints />
+        </rowConstraints>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Endereço Publico">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="202.0" prefWidth="147.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Endereço Privado">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="46.0" prefHeight="202.0" prefWidth="147.0" GridPane.rowIndex="2">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="97.0" text="Exchenge">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="72.0" prefHeight="202.0" prefWidth="147.0" GridPane.rowIndex="3">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="97.0" text="Moeda">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <TextField fx:id="end_pub" prefHeight="25.0" prefWidth="306.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="end_pri" prefHeight="25.0" prefWidth="305.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="exch" prefHeight="25.0" prefWidth="304.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="moeda" prefHeight="25.0" prefWidth="304.0" />
+               </children>
+            </HBox>
+            <Label prefHeight="17.0" prefWidth="93.0" text="   OBS" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <HBox alignment="TOP_CENTER" prefHeight="65.0" prefWidth="318.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <TextArea fx:id="obs" prefHeight="85.0" prefWidth="302.0" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+      <Label layoutX="155.0" layoutY="14.0" text="Cadastro Carteiras" textFill="#3b9017">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="cad" layoutX="114.0" layoutY="431.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="25.0" prefWidth="114.0" text="Cadastrar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="canc" layoutX="274.0" layoutY="431.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="114.0" text="Cancelar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+       <Label fx:id="idbanco" alignment="CENTER" layoutX="215.0" layoutY="48.0" prefHeight="17.0" prefWidth="36.0" text="" textFill="#909090">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
