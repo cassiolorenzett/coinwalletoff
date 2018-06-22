@@ -4,14 +4,14 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 > * ### Tela inicial
  
 
-![alt text][logo]
+![alt text][logo1]
 
-   [logo]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg1.png 
+   [logo1]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg1.png 
 
 
-![alt text][logo]
+![alt text][logo2]
 
-   [logo]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png
+   [logo2]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png
 
 
 
@@ -33,9 +33,9 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    <br>
    já é possivel fazer o backup das suas carteiras para sua conta, clicando no botão de backup presente 
    na tela inicial do sofware.
-   ![alt text][logo]
-
-   [logo]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png
+ 
+    Ex:
+   <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png">
 
 
    </dd>
