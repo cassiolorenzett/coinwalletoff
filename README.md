@@ -1,5 +1,5 @@
 # coinwalletoff
-Software para guardar o endereço publico ou privado de qualquer carteira cripto.
+Software para guardar o endereço público ou privado de qualquer carteira cripto.
 Além da funcionalidade de guardar os endereços das carteiras é possivel usar algumas funcionalidades extras
 que o sistema disponibiliza.
 <br>
@@ -40,9 +40,9 @@ Inclusive o arquivo de backup enviado para o google drive é criptografado com A
    Clique no link para configurar a API:  https://console.cloud.google.com/apis
   </dd>  
     
-  <dt>Efetuando o backup para google drive</dt>
+  <dt>Efetuando o backup para Google Drive</dt>
   <dd>
-   Após criado as chaves da API é só informa-las dentro do programa e sincronizar. Dando tudo certo 
+   Após criado as chaves da API é só informá-las dentro do programa e sincronizar. Dando tudo certo 
    <br>
    já é possivel fazer o backup das suas carteiras para sua conta, clicando no botão de backup presente 
    na tela inicial do mesmo.
@@ -50,10 +50,10 @@ Inclusive o arquivo de backup enviado para o google drive é criptografado com A
    <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg3.png">
    </dd>
    
-  <dt>Sincronizando as informações do google drive para dentro do sistema</dt>
+  <dt>Sincronizando as informações do Google Drive para dentro do sistema</dt>
   <dd>
-   Depois de efetuado o backup para a sua conta no google drive, é possivel baixar as carteiras e sincronizar as mesmas localmente
-   em sua maquina.
+   Depois de efetuado o backup para a sua conta no Google Drive, é possivel baixar as carteiras e sincronizar as mesmas localmente
+   em sua máquina.
    Ex:
    <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg4.png">
 
@@ -67,7 +67,7 @@ Inclusive o arquivo de backup enviado para o google drive é criptografado com A
    <br>
    Informações que podem ser visualizadas referente a carteira informada
    <br>
-   <b>Total recebido, Total enviado, Balanço, Numero de Transações e as Movimentações efetuadas </b>
+   <b>Total recebido, Total enviado, Balanço, Número de Transações e as Movimentações efetuadas </b>
    <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg6.png">
   <dd>
  </dl>
@@ -85,13 +85,13 @@ Inclusive o arquivo de backup enviado para o google drive é criptografado com A
    <dt>Ativando e criando API do Mercado Bitcoin</dt>
    <dd>
    Para utilizar a funcionalidade é necessário criar e ativar a <a href="https://www.mercadobitcoin.com.br/trade-api/configuracoes/">API</a> no site do Mercado Bitcoin.<br>
-   Será gerado duas chaves. O <b>Identificador</b> e o <b>Segredo</b>.
-   <br> Estas seram utilizadas para comunicação do software com sua conta. 
+   Será gerado duas chaves. <b>Identificador</b> e o <b>Segredo</b>.
+   <br> Estas serão utilizadas para comunicação do software com sua conta. 
    </dd>
    
    <dt>Cadastrando API dentro do programa</dt>
    <dd>
-    Depois de gerado as chaves é necessário informa-las dentro do programa. Para isto clique no botão de 'Configurações' na tela
+    Depois de gerado as chaves é necessário informá-las dentro do programa. Para isto clique no botão de 'Configurações' na tela
    principal e vá até a aba chamada 'Exchenges'.<br>
    Posicionado na tela informe as chaves geradas nos respectivos campos selecionando a exchenge 'Mercado Bitcoin'. <br>
    Depois de informado clique no botão 'Incluir/Editar'. Pronto, exchenge cadastrada e pronta para ser consumida.
@@ -104,7 +104,7 @@ Inclusive o arquivo de backup enviado para o google drive é criptografado com A
    <dd>
     Para ver as informações da sua conta pelo software, é necessário clicar na aba chamada 'Blockchain Info' e no botão 'BlockChain' na   tela inicial. Depois ir até a aba 'Exchenge(s)'. 
    <br>
-    Selecione a exchenge e clique em 'Conectar'. Se tudo estiver OK informações da sua conta serão mostradas na tela para serem visualizadas.
+    Selecione a exchenge e clique em 'Conectar'. Se tudo estiver OK, informações da sua conta serão mostradas na tela para serem visualizadas.
  <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg8.png">
    </dd>
    
