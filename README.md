@@ -11,9 +11,9 @@ que o sistema disponibiliza.
 <br>
 
 > * ### Requisitos Sistema
-Windows 32/64
-Linux(Ainda não homologado)
-Java
+Windows 32/64<br>
+Java<br>
+OBS: Linux(Ainda não foi homologado)
 
 > * ### Segurança
 Todos as informações gravadas são criptografadas com **AES(Advanced Encryption Standard)**.
