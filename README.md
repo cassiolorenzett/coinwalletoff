@@ -5,7 +5,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
  
 
 <div >
-    [logo]:<img src="/screenshots/walletimg1.png">
+    ![alt text](/screenshots/walletimg1.png "Logo Title Text 1")
 </div>
 
 <div >
