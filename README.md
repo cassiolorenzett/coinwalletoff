@@ -10,6 +10,11 @@ que o sistema disponibiliza.
 * Cominicação com o Mercado Bitcoin</b>
 <br>
 
+> * ### Requisitos Sistema
+Windows 32/64
+Linux(Ainda não homologado)
+Java
+
 > * ### Segurança
 Todos as informações gravadas são criptografadas com **AES(Advanced Encryption Standard)**.
 Inclusive o arquivo de backup enviado para o google drive é criptografado com AES.
