@@ -1,9 +1,7 @@
 # coinwalletoff
 Software para guardar o endereço publico ou privado de qualquer carteira.
 
-<b> Tela inicial do software</b>
-<br>
-
+** Tela inicial do software
 
 <div align="center">
     <img src="/screenshots/walletimg1.png">
@@ -12,3 +10,9 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 <div align="center">
     <img src="/screenshots/walletimg2.png">
 </div>
+
+
+# Funcionalidades   
+
+** Backup das carteiras cadastradas comaconta do Google Drive Vinculada 
+<br>
