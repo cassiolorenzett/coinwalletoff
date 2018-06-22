@@ -1,5 +1,16 @@
 # coinwalletoff
-Software para guardar o endereço publico ou privado de qualquer carteira.
+Software para guardar o endereço publico ou privado de qualquer carteira cripto.
+Além da funcionalidade de guardar os endereços das carteiras é possivel usar algumas funcionalidades extras
+que o sistema disponibiliza.
+<b>* Preços de algumas altcoins <br>
+* Backup das carteiras com google drive<br>
+* Comunicação com a Blockchain do Bitcoin e Ethereum<br>
+* Cominicação com o Mercado Bitcoin</b>
+<br>
+
+> * ### Segurança
+Todos as informações gravadas são criptografadas com AES(Advanced Encryption Standard).
+Inclusive o arquivo de backup enviado para o google drive é criptografado com AES.
 
 > * ### Tela inicial
  
@@ -91,7 +102,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    <dd>
     Para ver as informações da sua conta pelo software, é necessário clicar na aba chamada 'Blockchain Info' e no botão 'BlockChain' na   tela inicial. Depois ir até a aba 'Exchenge(s)'. 
    <br>
-    Selecione a exchenge e clique em 'Conectar'. Se tudo estiver OK informações dasua conta serão mostradas na tela para serem visualizadas.
+    Selecione a exchenge e clique em 'Conectar'. Se tudo estiver OK informações da sua conta serão mostradas na tela para serem visualizadas.
  <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg8.png">
    </dd>
    
