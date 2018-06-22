@@ -59,7 +59,18 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
   <dd>
  </dl>
  
- > * ### Counicação com a API do [Mercado Bitcoin](https://www.mercadobitcoin.com.br/)
+ > * ### Comunicação com sua conta do [Mercado Bitcoin](https://www.mercadobitcoin.com.br/) atrvés da API do mesmo.
+ <dl> 
+   É possivel efetuar a comunicação com sua conta no Mercado Bitcoin e poder visualizar informações como:<br>
+   * Saldo em Reais
+   
+   <br>
+   Informações que podem ser visualizadas referente a carteira informada
+   <br>
+   <b>Total recebido, Total enviado, Balanço, Numero de Transações e as Movimentações efetuadas </b>
+   <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg6.png">
+  <dd>
+ </dl>
 
 
 
