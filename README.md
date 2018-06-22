@@ -47,6 +47,16 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    </dd>
 </dl>
 
+> * ### Comunicação com a **Blockchain** do Bitcoin e Ethereum
+ <dl> 
+   Depois de efetuado o cadastro de qualquer carteira Bitcoin ou Ethereum é possivel verificar as movimentação das mesmas em suas 
+   <br>
+   Blockchains. Informações que podem ser visualizadas referente a carteira informada
+   <br>
+   <b>Total recebido, Total enviado, Balanço, Numero de Transações e as movimentações efetuadas </b>
+  <dd>
+ </dl>
+
 
 
 
