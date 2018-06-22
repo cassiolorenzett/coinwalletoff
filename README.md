@@ -27,19 +27,26 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    Clique no link para configurar a API:  https://console.cloud.google.com/apis
   </dd>  
     
-  <dt>Efetuando o backup</dt>
+  <dt>Efetuando o backup para google drive</dt>
   <dd>
    Após criado as chaves da API é só informa-las dentro do programa e sincronizar. Dando tudo certo 
    <br>
    já é possivel fazer o backup das suas carteiras para sua conta, clicando no botão de backup presente 
-   na tela inicial do sofware.
- 
-    Ex:
+   na tela inicial do mesmo.
+   
    <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg3.png">
-
+   </dd>
+   
+  <dt>Sincronizando as informações do google drive para dentro do sistema</dt>
+  <dd>
+   Depois de efetuado o backup para a sua conta no google drive, é possivel baixar as carteiras e sincronizar as mesmas localmente
+   em sua maquina.
+   Ex:
+   <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg4.png">
 
    </dd>
 </dl>
-  
+
+
 
 
