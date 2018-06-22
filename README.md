@@ -15,7 +15,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 
 
 
-# Funcionalidades   
+# Funcionalidades Extras
 
 > * ### Backup e Sincronização das carteiras cadastradas, através da conta do Google Drive Vinculada
 
@@ -58,6 +58,8 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg6.png">
   <dd>
  </dl>
+ 
+ > * ### Counicação com a API do [Mercado Bitcoin](https://www.mercadobitcoin.com.br/)
 
 
 
