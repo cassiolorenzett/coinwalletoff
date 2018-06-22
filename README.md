@@ -22,9 +22,8 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 <dl>
  
   <dd>
- Necessário ativar API do google drive e criar as chaves <b>Client ID</b> e ***Client Secret***.
-   [Clique aqui para confugurar a API](https://console.cloud.google.com/apis)
-
+   Necessário ativar API do google drive e criar as chaves <b>Client ID</b> e <b>Client Secret</b>
+   Clique no link para configurar a API:https://console.cloud.google.com/apis
   </dd>
 
   
