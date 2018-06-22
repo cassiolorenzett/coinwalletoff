@@ -61,9 +61,13 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
  
  > * ### Comunicação com sua conta do [Mercado Bitcoin](https://www.mercadobitcoin.com.br/) atrvés da API do mesmo.
  <dl> 
-   É possivel efetuar a comunicação com sua conta no Mercado Bitcoin e poder visualizar informações como:<br>
-   * Saldo em Reais
-   
+   É possivel efetuar a comunicação com sua conta no Mercado Bitcoin e poder visualizar algumas informações como:<br>
+   1. Saldo em Reais
+   2. Saldo dos Altcoins presentes na platarfoma 
+   3. Movimentos efetuados para cada altcoin
+   <br>
+   Dentre outras.
+ 
    <br>
    Informações que podem ser visualizadas referente a carteira informada
    <br>
