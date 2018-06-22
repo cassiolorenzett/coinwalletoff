@@ -72,7 +72,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    <dt>Ativando e criando API do Mercado Bitcoin</dt>
    <dd>
    Para utilizar a funcionalidade é necessário criar e ativar a <a href="https://www.mercadobitcoin.com.br/trade-api/configuracoes/">API</a> no site do Mercado Bitcoin.<br>
-   Será gerado duas chaves. O <b>Identificador</b> e o <b>Segredo</>.
+   Será gerado duas chaves. O <b>Identificador</b> e o <b>Segredo</b>.
    <br> Estas seram utilizadas para comunicação do software com sua conta. 
    </dd>
    
