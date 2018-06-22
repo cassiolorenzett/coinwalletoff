@@ -78,12 +78,12 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    
    <dt>Cadastrando API dentro do programa</dt>
    <dd>
-    Depois de gerado as chaves é necessário informalas dentro do programa. Para isto abra clique no botão de 'configurações' na tela
-   principal e vá até a aba chama 'Exchenges'.<br>
+    Depois de gerado as chaves é necessário informa-las dentro do programa. Para isto clique no botão de 'Configurações' na tela
+   principal e vá até a aba chamada 'Exchenges'.<br>
    Posicionado na tela informe as chaves geradas nos respectivos campos selecionando a exchenge 'Mercado Bitcoin'. <br>
    Depois de informado clique no botão 'Incluir/Editar'. Pronto, exchenge cadastrada e pronta para ser consumida.
    <br>
-  <b>OBS: Atualmente só o Mercado Bitcoin esta funcional. Futuramente será incluido mais Exchenges<b>
+  <b>OBS: Atualmente só o Mercado Bitcoin esta funcional. Futuramente será incluido mais Exchenges</b>
    </dd>
 
   </dl>
