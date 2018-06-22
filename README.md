@@ -2,7 +2,9 @@
 Software para guardar o endereço publico ou privado de qualquer carteira cripto.
 Além da funcionalidade de guardar os endereços das carteiras é possivel usar algumas funcionalidades extras
 que o sistema disponibiliza.
-<b>* Preços de algumas altcoins <br>
+<br>
+<b>
+* Preços de algumas altcoins <br>
 * Backup das carteiras com google drive<br>
 * Comunicação com a Blockchain do Bitcoin e Ethereum<br>
 * Cominicação com o Mercado Bitcoin</b>
