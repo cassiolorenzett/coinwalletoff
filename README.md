@@ -84,6 +84,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    Depois de informado clique no botão 'Incluir/Editar'. Pronto, exchenge cadastrada e pronta para ser consumida.
    <br>
   <b>OBS: Atualmente só o Mercado Bitcoin esta funcional. Futuramente será incluido mais Exchenges</b>
+ <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg4.png">
    </dd>
 
   </dl>
