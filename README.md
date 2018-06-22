@@ -1,15 +1,15 @@
 # coinwalletoff
 Software para guardar o endereço publico ou privado de qualquer carteira.
 
-> * Tela inicial do software {blockquote:.is-danger} 
+> * Tela inicial do software 
  
 
-<div align="center">
-    <img src="/screenshots/walletimg1.png">
+<div >
+    [logo]:<img src="/screenshots/walletimg1.png">
 </div>
 
-<div align="center">
-    <img src="/screenshots/walletimg2.png">
+<div >
+    [logo]:<img src="/screenshots/walletimg2.png">
 </div>
 
 
