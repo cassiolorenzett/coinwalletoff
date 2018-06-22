@@ -35,7 +35,7 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
    na tela inicial do sofware.
  
     Ex:
-   <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png">
+   <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg3.png">
 
 
    </dd>
