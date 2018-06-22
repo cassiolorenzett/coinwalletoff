@@ -19,14 +19,12 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 
 > * ### Backup das carteiras cadastradas, através da conta do Google Drive Vinculada
 
-<dl>
- 
+<dl> 
   <dd>
-   Necessário ativar API do google drive e criar as chaves <b>Client ID</b> e <b>Client Secret</b>
+   Necessário ativar API do google drive e criar as chaves <b>Client ID</b> e <b>Client Secret</b>.
+   <br>
    Clique no link para configurar a API:https://console.cloud.google.com/apis
-  </dd>
-
-  
+  </dd>  
 </dl>
   
 
