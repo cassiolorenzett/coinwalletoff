@@ -9,7 +9,7 @@ que o sistema disponibiliza.
 <br>
 
 > * ### Segurança
-Todos as informações gravadas são criptografadas com AES(Advanced Encryption Standard).
+Todos as informações gravadas são criptografadas com **AES(Advanced Encryption Standard)**.
 Inclusive o arquivo de backup enviado para o google drive é criptografado com AES.
 
 > * ### Tela inicial
