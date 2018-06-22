@@ -5,11 +5,11 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
  
 
 <div >
-    ![alt text](https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg1.png "Logo Title Text 1")
+   [logo]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg1.png "Logo Title Text 2"
 </div>
 
 <div >
-    [logo]:<img src="/screenshots/walletimg2.png">
+   [logo]: https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg2.png "Logo Title Text 2"
 </div>
 
 
