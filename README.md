@@ -86,7 +86,15 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
   <b>OBS: Atualmente só o Mercado Bitcoin esta funcional. Futuramente será incluido mais Exchenges</b>
  <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg5.png">
    </dd>
-
+ 
+ <dt>Comunicando-se com sua conta do Mercado Bitcoin</dt>
+   <dd>
+    Para ver as informações da sua conta pelo software, é necessário clicar na aba chamada 'Blockchain Info' e no botão 'BlockChain' na   tela inicial. Depois ir até a aba 'Exchenge(s)'. 
+   <br>
+    Selecione a exchenge e clique em 'Conectar'. Se tudo estiver OK informações dasua conta serão mostradas na tela para serem visualizadas.
+ <img src="https://github.com/cassiolorenzett/coinwalletoff/blob/master/screenshots/walletimg8.png">
+   </dd>
+   
   </dl>
 
 
