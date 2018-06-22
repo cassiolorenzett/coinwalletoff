@@ -1,7 +1,7 @@
 # coinwalletoff
 Software para guardar o endereço publico ou privado de qualquer carteira.
 
-> * Tela inicial do software
+> * Tela inicial
  
 
 ![alt text][logo]
@@ -17,5 +17,10 @@ Software para guardar o endereço publico ou privado de qualquer carteira.
 
 # Funcionalidades   
 
-> * Backup das carteiras cadastradas comaconta do Google Drive Vinculada 
+> * Backup das carteiras cadastradas, através da conta do Google Drive Vinculada 
+```
+Necessário ativar API do google drive e criar as chaves  *Client ID* e *Client Secret*.
+Consultar o seguinte link para ativação: https://console.cloud.google.com/apis
+
+```
 
